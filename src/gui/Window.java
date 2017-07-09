@@ -230,6 +230,178 @@ public class Window {
 		tile19 = new JLabel();
 		tile19.setBounds(575, 0, 64, 64);
 		panel.add(tile19);
+		
+		tile20 = new JLabel();
+		tile20.setBounds(575, 0, 64, 64);
+		panel.add(tile20);
+		
+		tile21 = new JLabel();
+		tile21.setBounds(575, 0, 64, 64);
+		panel.add(tile21);
+		
+		tile22 = new JLabel();
+		tile22.setBounds(575, 0, 64, 64);
+		panel.add(tile22);
+		
+		tile23 = new JLabel();
+		tile23.setBounds(575, 0, 64, 64);
+		panel.add(tile23);
+		
+		tile24 = new JLabel();
+		tile24.setBounds(575, 0, 64, 64);
+		panel.add(tile24);
+		
+		tile25 = new JLabel();
+		tile25.setBounds(575, 0, 64, 64);
+		panel.add(tile25);
+		
+		tile26 = new JLabel();
+		tile26.setBounds(575, 0, 64, 64);
+		panel.add(tile26);
+		
+		tile27 = new JLabel();
+		tile27.setBounds(575, 0, 64, 64);
+		panel.add(tile27);
+		
+		tile28 = new JLabel();
+		tile28.setBounds(575, 0, 64, 64);
+		panel.add(tile28);
+		
+		tile29 = new JLabel();
+		tile29.setBounds(575, 0, 64, 64);
+		panel.add(tile29);
+		
+		tile30 = new JLabel();
+		tile30.setBounds(575, 0, 64, 64);
+		panel.add(tile30);
+		
+		tile31 = new JLabel();
+		tile31.setBounds(575, 0, 64, 64);
+		panel.add(tile31);
+		
+		tile19 = new JLabel();
+		tile19.setBounds(575, 0, 64, 64);
+		panel.add(tile19);
+		
+		tile19 = new JLabel();
+		tile19.setBounds(575, 0, 64, 64);
+		panel.add(tile19);
+		
+		tile32 = new JLabel();
+		tile32.setBounds(575, 0, 64, 64);
+		panel.add(tile32);
+		
+		tile33 = new JLabel();
+		tile33.setBounds(575, 0, 64, 64);
+		panel.add(tile33);
+		
+		tile34 = new JLabel();
+		tile34.setBounds(575, 0, 64, 64);
+		panel.add(tile34);
+		
+		tile35 = new JLabel();
+		tile35.setBounds(575, 0, 64, 64);
+		panel.add(tile35);
+		
+		tile36 = new JLabel();
+		tile36.setBounds(575, 0, 64, 64);
+		panel.add(tile36);
+		
+		tile37 = new JLabel();
+		tile37.setBounds(575, 0, 64, 64);
+		panel.add(tile37);
+		
+		tile38 = new JLabel();
+		tile38.setBounds(575, 0, 64, 64);
+		panel.add(tile38);
+		
+		tile39 = new JLabel();
+		tile39.setBounds(575, 0, 64, 64);
+		panel.add(tile39);
+		
+		tile40 = new JLabel();
+		tile40.setBounds(575, 0, 64, 64);
+		panel.add(tile40);
+		
+		tile41 = new JLabel();
+		tile41.setBounds(575, 0, 64, 64);
+		panel.add(tile41);
+		
+		tile42 = new JLabel();
+		tile42.setBounds(575, 0, 64, 64);
+		panel.add(tile42);
+		
+		tile42 = new JLabel();
+		tile42.setBounds(575, 0, 64, 64);
+		panel.add(tile42);
+		
+		tile43 = new JLabel();
+		tile43.setBounds(575, 0, 64, 64);
+		panel.add(tile43);
+		
+		tile43 = new JLabel();
+		tile43.setBounds(575, 0, 64, 64);
+		panel.add(tile43);
+		
+		tile44 = new JLabel();
+		tile44.setBounds(575, 0, 64, 64);
+		panel.add(tile44);
+		
+		tile45 = new JLabel();
+		tile45.setBounds(575, 0, 64, 64);
+		panel.add(tile45);
+		
+		tile46 = new JLabel();
+		tile46.setBounds(575, 0, 64, 64);
+		panel.add(tile46);
+		
+		tile47 = new JLabel();
+		tile47.setBounds(575, 0, 64, 64);
+		panel.add(tile47);
+		
+		tile48 = new JLabel();
+		tile48.setBounds(575, 0, 64, 64);
+		panel.add(tile48);
+		
+		tile49 = new JLabel();
+		tile49.setBounds(575, 0, 64, 64);
+		panel.add(tile49);
+		
+		tile50 = new JLabel();
+		tile50.setBounds(575, 0, 64, 64);
+		panel.add(tile50);
+		
+		tile51 = new JLabel();
+		tile51.setBounds(575, 0, 64, 64);
+		panel.add(tile51);
+		
+		tile52 = new JLabel();
+		tile52.setBounds(575, 0, 64, 64);
+		panel.add(tile52);
+		
+		tile53 = new JLabel();
+		tile53.setBounds(575, 0, 64, 64);
+		panel.add(tile53);
+		
+		tile54 = new JLabel();
+		tile54.setBounds(575, 0, 64, 64);
+		panel.add(tile54);
+		
+		tile55 = new JLabel();
+		tile55.setBounds(575, 0, 64, 64);
+		panel.add(tile55);
+		
+		tile56 = new JLabel();
+		tile56.setBounds(575, 0, 64, 64);
+		panel.add(tile56);
+		
+		tile57 = new JLabel();
+		tile57.setBounds(575, 0, 64, 64);
+		panel.add(tile57);
+		
+		tile58 = new JLabel();
+		tile58.setBounds(575, 0, 64, 64);
+		panel.add(tile58);
 	}
 	
 }
