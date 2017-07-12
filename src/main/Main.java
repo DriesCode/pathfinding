@@ -25,10 +25,7 @@ public class Main {
 	public static Tile[][] tile_matrix = new Tile[10][10];
 	
 	public static void main(String[] args) {
-		new Window();
-		new TileRenderer().create_matrix();
-		new TileRenderer().seeMatrix();
-		Window.window.setVisible(true);
+		new PathFinding().generateWindow();
 		
 	}
 

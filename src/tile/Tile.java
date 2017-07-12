@@ -8,11 +8,14 @@ public class Tile {
 	private int x, y;
 	private JLabel label;
 	private int ID;
+	private int[] coords = new int[2];
 	
 	public Tile(int x, int y, int ID) {
 		this.x = x;
 		this.y = y;
 		this.ID = ID;
+		coords[0] = (x/2);
+		coords[1] = (y/2);
 		
 		switch (ID) {
 		case 0:
@@ -26,6 +29,14 @@ public class Tile {
 			label.setIcon(new ImageIcon("wall.png"));
 			break;
 		}
+	}
+	
+	public int getCoordY() {
+		return coords[1];
+	}
+	
+	public int getCoordX() {
+		return coords[0];
 	}
 	
 	public int getID() {
