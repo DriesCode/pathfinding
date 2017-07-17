@@ -3,11 +3,10 @@ package main;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import javax.swing.ImageIcon;
-import javax.swing.JLabel;
 import javax.swing.Timer;
 
 import gui.Window;
+import mob.Player;
 import tile.TileRenderer;
 
 public class PathFinding {
@@ -27,15 +26,16 @@ public class PathFinding {
 		new TileRenderer().repaint();
 	}
 	
+	public void previewWindow() {
+		
+	}
+	
 	public void generateWindow() {
 		new Window();
 		new TileRenderer().create_matrix();
 		new TileRenderer().seeMatrix();
 		
-//		JLabel l = new JLabel();
-//		l.setBounds(Main.tile_matrix[2][3].getCoordX(), Main.tile_matrix[2][3].getCoordX(), 16, 16);
-//		l.setIcon(new ImageIcon("wall.png"));
-//		Window.panel.add(l);
+		// new Player(64, 0);
 		Window.window.setVisible(true);
 	}
 	

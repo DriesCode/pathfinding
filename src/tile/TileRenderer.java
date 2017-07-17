@@ -18,19 +18,30 @@ public class TileRenderer {
 	}
 	
 	public void create_matrix() {
-		for (int i = 0; i < Main.map_matrix.length; i++) {
-			for (int j = 0; j < Main.map_matrix.length; j++) {
+		for (int j = 0; j < Main.map_matrix.length; j++) {
+			for (int i = 0;i < Main.map_matrix.length; i++) {
 				//System.out.println("[" + i + " " + j + "] = " +Main.map_matrix[i][j]);
-				Main.tile_matrix[i][j] = new Tile((i*64), (j*64), Main.map_matrix[i][j]);
+				Main.tile_matrix[j][i] = new Tile((j*64), (i*64), Main.map_matrix[i][j]);
+				
+				if (Main.map_matrix[j][i] == 0) {
+					Main.availableTiles.add(Main.tile_matrix[j][i]);
+				}
 			}
 		}
+		
+//		for (int i = 0; i < Main.map_matrix.length; i++) {
+//			for (int j = 0;j < Main.map_matrix.length; j++) {
+//				//System.out.println("[" + i + " " + j + "] = " +Main.map_matrix[i][j]);
+//				Main.tile_matrix[i][j] = new Tile((i*64), (j*64), Main.map_matrix[i][j]);
+//			}
+//		}
 	}
 	
 	public void seeMatrix() {
-		for (int i = 0; i < Main.map_matrix.length; i++) {
-			for (int j = 0; j < Main.map_matrix.length; j++) {
-				System.out.println("[" + i + " " + j +"] = x: " + Main.tile_matrix[i][j].getX() + " y: " + Main.tile_matrix[i][j].getY() + " ID: " + Main.tile_matrix[i][j].getID() + " NODE: " + Main.tile_matrix[i][j].getCoordX() + " " + Main.tile_matrix[i][j].getCoordY());
-				Window.panel.add(Main.tile_matrix[i][j].getJLabel());
+		for (int j = 0; j < Main.map_matrix.length; j++) {
+			for (int i = 0; i < Main.map_matrix.length; i++) {
+				System.out.println("[" + j + " " + i +"] = x: " + Main.tile_matrix[j][i].getX() + " y: " + Main.tile_matrix[j][i].getY() + " ID: " + Main.tile_matrix[j][i].getID() + " NODE: " + Main.tile_matrix[j][i].getCoordX() + " " + Main.tile_matrix[j][i].getCoordY());
+				Window.map.add(Main.tile_matrix[j][i].getJLabel(), 0);
 			}
 		}
 	}

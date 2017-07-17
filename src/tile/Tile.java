@@ -16,16 +16,14 @@ public class Tile {
 		this.ID = ID;
 		coords[0] = (x/2);
 		coords[1] = (y/2);
+		label = new JLabel();
+		label.setBounds(x, y, 64, 64);
 		
 		switch (ID) {
 		case 0:
-			label = new JLabel();
-			label.setBounds(x, y, 64, 64);
 			label.setIcon(new ImageIcon("floor.png"));
 			break;
 		case 1:
-			label = new JLabel();
-			label.setBounds(x, y, 64, 64);
 			label.setIcon(new ImageIcon("wall.png"));
 			break;
 		}
