@@ -1,5 +1,10 @@
 package tile;
 
+import java.awt.Graphics2D;
+import java.awt.Image;
+import java.awt.RenderingHints;
+import java.awt.image.BufferedImage;
+
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 
@@ -17,16 +22,40 @@ public class Tile {
 		coords[0] = (x/2);
 		coords[1] = (y/2);
 		label = new JLabel();
-		label.setBounds(x, y, 64, 64);
+		label.setBounds(x, y, 32, 32);
+		
+		ImageIcon iconWall, iconFloor, iconPlayer, iconEnd;
+		
+		iconWall = new ImageIcon(getScaledImage(new ImageIcon("wall.png").getImage(), 32, 32));
+		iconFloor = new ImageIcon(getScaledImage(new ImageIcon("floor.png").getImage(), 32, 32));
+		iconPlayer = new ImageIcon(getScaledImage(new ImageIcon("player.png").getImage(), 32, 32));
+		iconEnd = new ImageIcon(getScaledImage(new ImageIcon("end.png").getImage(), 32, 32));
 		
 		switch (ID) {
 		case 0:
-			label.setIcon(new ImageIcon("floor.png"));
+			label.setIcon(iconFloor);
 			break;
 		case 1:
-			label.setIcon(new ImageIcon("wall.png"));
+			label.setIcon(iconWall);
+			break;
+		case 2:
+			label.setIcon(iconPlayer);
+			break;
+		case 3:
+			label.setIcon(iconEnd);
 			break;
 		}
+	}
+	
+	private Image getScaledImage(Image srcImg, int w, int h){
+	    BufferedImage resizedImg = new BufferedImage(w, h, BufferedImage.TYPE_INT_ARGB);
+	    Graphics2D g2 = resizedImg.createGraphics();
+
+	    g2.setRenderingHint(RenderingHints.KEY_INTERPOLATION, RenderingHints.VALUE_INTERPOLATION_BILINEAR);
+	    g2.drawImage(srcImg, 0, 0, w, h, null);
+	    g2.dispose();
+
+	    return resizedImg;
 	}
 	
 	public int getCoordY() {

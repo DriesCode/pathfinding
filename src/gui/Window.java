@@ -10,7 +10,7 @@ import javax.swing.JPanel;
 
 public class Window {
 
-	private final int height = 665, width = 640;
+	private final int width = 740, height = 740;
 	
 	public static JFrame window;
 	public static JLayeredPane map;

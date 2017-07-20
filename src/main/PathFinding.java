@@ -5,8 +5,8 @@ import java.awt.event.ActionListener;
 
 import javax.swing.Timer;
 
+import gui.MapEditor;
 import gui.Window;
-import mob.Player;
 import tile.TileRenderer;
 
 public class PathFinding {
@@ -35,8 +35,11 @@ public class PathFinding {
 		new TileRenderer().create_matrix();
 		new TileRenderer().seeMatrix();
 		
-		// new Player(64, 0);
 		Window.window.setVisible(true);
+	}
+	
+	public void start() {
+		new MapEditor();
 	}
 	
 }

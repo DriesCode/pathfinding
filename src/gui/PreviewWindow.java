@@ -17,7 +17,7 @@ public class PreviewWindow {
 	private JFrame window;
 	private JPanel panel;
 	
-	private JLabel[][] jMatrix = new JLabel[10][10];
+	private JLabel[][] jMatrix = new JLabel[20][20];
 	private int[][] iMatrix = Main.map_matrix;
 	
 	public PreviewWindow() {
@@ -26,7 +26,7 @@ public class PreviewWindow {
 		panel.setLayout(null);
 		window.add(panel);
 		
-		window.setPreferredSize(new Dimension(647, 665));
+		window.setPreferredSize(new Dimension(327, 665));
 		window.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		window.setResizable(false);
 		window.pack();
@@ -43,13 +43,13 @@ public class PreviewWindow {
 				switch (iMatrix[i][j]) {
 				case 0:
 					JLabel l = new JLabel();
-					l.setBounds((i*64), (j*64), 64, 64);
+					l.setBounds((i*32), (j*32), 32, 32);
 					l.setIcon(new ImageIcon("_floor.png"));
 					jMatrix[i][j] = l;
 					break;
 				case 1:
 					JLabel l2 = new JLabel();
-					l2.setBounds((i*64), (j*64), 64, 64);
+					l2.setBounds((i*32), (j*32), 32, 32);
 					l2.setIcon(new ImageIcon("_wall.png"));
 					jMatrix[i][j] = l2;
 					break;

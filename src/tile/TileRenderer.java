@@ -21,7 +21,7 @@ public class TileRenderer {
 		for (int j = 0; j < Main.map_matrix.length; j++) {
 			for (int i = 0;i < Main.map_matrix.length; i++) {
 				//System.out.println("[" + i + " " + j + "] = " +Main.map_matrix[i][j]);
-				Main.tile_matrix[j][i] = new Tile((j*64), (i*64), Main.map_matrix[i][j]);
+				Main.tile_matrix[j][i] = new Tile((j*32), (i*32), Main.map_matrix[i][j]);
 				
 				if (Main.map_matrix[j][i] == 0) {
 					Main.availableTiles.add(Main.tile_matrix[j][i]);
