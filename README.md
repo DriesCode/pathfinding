@@ -25,6 +25,7 @@ If you want to try the Map Editor, follow the "Download" instructions.
 Once you have your Map Editor running, you can create your map. 
 
 Controls:
+
 Left mouse button: Place a wall/floor tile.
 
 Right mouse button: Place the player or the goal point. There can only be one player and one final point. If you have placed your player/end point, place a floor tile on the player/end point and then place the player/end point where you want.
