@@ -5,7 +5,7 @@ It is not finished yet. Project is under development and isn't even in an alpha 
 If you want to test the application and send feedback, follow the instructions to download and play the game.
 You can send your feedback in http://twitter.com/adri7escalona
 
-Version: 0.2
+Version: 0.2.\n
 Last improvement: Map editor finished.
 Developver: Adrián (Dries) Escalona @adri7escalona
 # -------------------------------------
