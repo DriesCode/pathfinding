@@ -1,8 +1,8 @@
 # Pathfinding
 
 # -------------------------------------
-It is not finished. Project is under development and isn't even in alpha phase.
-If you want to test the application and send a feedback, follow to instructions to download and play the game.
+It is not finished yet. Project is under development and isn't even in an alpha phase.
+If you want to test the application and send feedback, follow the instructions to download and play the game.
 You can send your feedback in http://twitter.com/adri7escalona
 
 Version: 0.2
