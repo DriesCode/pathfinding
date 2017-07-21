@@ -26,10 +26,10 @@ public class Tile {
 		
 		ImageIcon iconWall, iconFloor, iconPlayer, iconEnd;
 		
-		iconWall = new ImageIcon(getScaledImage(new ImageIcon("wall.png").getImage(), 32, 32));
-		iconFloor = new ImageIcon(getScaledImage(new ImageIcon("floor.png").getImage(), 32, 32));
-		iconPlayer = new ImageIcon(getScaledImage(new ImageIcon("player.png").getImage(), 32, 32));
-		iconEnd = new ImageIcon(getScaledImage(new ImageIcon("end.png").getImage(), 32, 32));
+		iconWall = new ImageIcon(getScaledImage(new ImageIcon("res/wall.png").getImage(), 32, 32));
+		iconFloor = new ImageIcon(getScaledImage(new ImageIcon("res/floor.png").getImage(), 32, 32));
+		iconPlayer = new ImageIcon(getScaledImage(new ImageIcon("res/player.png").getImage(), 32, 32));
+		iconEnd = new ImageIcon(getScaledImage(new ImageIcon("res/end.png").getImage(), 32, 32));
 		
 		switch (ID) {
 		case 0:

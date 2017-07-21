@@ -56,10 +56,10 @@ public class MapEditor extends JLayeredPane implements MouseListener, ActionList
 		this.setLayout(new GridLayout(20, 20));
 		window.add(this);
 		
-		iconWall = new ImageIcon(getScaledImage(new ImageIcon("_wall.png").getImage(), 32, 32));
-		iconFloor = new ImageIcon(getScaledImage(new ImageIcon("_floor.png").getImage(), 32, 32));
-		iconPlayer = new ImageIcon(getScaledImage(new ImageIcon("player.png").getImage(), 32, 32));
-		end = new ImageIcon(getScaledImage(new ImageIcon("end.png").getImage(), 32, 32));
+		iconWall = new ImageIcon(getScaledImage(new ImageIcon("res/_wall.png").getImage(), 32, 32));
+		iconFloor = new ImageIcon(getScaledImage(new ImageIcon("res/_floor.png").getImage(), 32, 32));
+		iconPlayer = new ImageIcon(getScaledImage(new ImageIcon("res/player.png").getImage(), 32, 32));
+		end = new ImageIcon(getScaledImage(new ImageIcon("res/end.png").getImage(), 32, 32));
 		
 		window.setPreferredSize(new Dimension(width, height));
 		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
