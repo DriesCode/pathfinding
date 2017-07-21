@@ -1,4 +1,4 @@
-# pathfinding
+# Pathfinding
 
 # -------------------------------------
 It is not finished. Project is under development and isn't even in alpha phase.
