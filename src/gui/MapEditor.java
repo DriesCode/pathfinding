@@ -35,7 +35,6 @@ public class MapEditor extends JLayeredPane implements MouseListener, ActionList
 	private JPanel accPanel;
 	
 	private ImageIcon iconWall, iconFloor, iconPlayer, end;
-	private boolean player = false, endB = false;;
 	
 	JButton confirm;
 	

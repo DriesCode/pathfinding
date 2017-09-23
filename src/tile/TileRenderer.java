@@ -6,16 +6,6 @@ import gui.Window;
 import main.Main;
 
 public class TileRenderer {
-
-	public void repaint() {
-		for (int i = 0; i < Main.map_matrix.length; i++) {
-			for (int j = 0; j < Main.map_matrix.length; j++) {
-				Main.tile_matrix[i][j].getJLabel().setBackground(Color.BLACK);;
-			}
-		}
-		
-		seeMatrix();
-	}
 	
 	public void create_matrix() {
 		for (int j = 0; j < Main.map_matrix.length; j++) {

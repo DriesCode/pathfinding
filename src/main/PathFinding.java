@@ -23,11 +23,7 @@ public class PathFinding {
 	}
 	
 	public void gameStep() {
-		new TileRenderer().repaint();
-	}
-	
-	public void previewWindow() {
-		
+		//new TileRenderer().repaint();
 	}
 	
 	public void generateWindow() {
